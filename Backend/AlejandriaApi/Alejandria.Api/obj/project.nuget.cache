@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6POcGnskXyNQ3PygCvUilaYDOlduZLr3k4N6lgvXrptzTAdNsqg3y2DwMEIRnwiN+9170NSQvjv9wU679wKmVA==",
+  "dgSpecHash": "ckhjPIuW5/CjFr+UQVUakRVYIdYQRAQZYJ4CruRF3vm+tlBK7Y2AWANOHIo4cDcSjRwwiCsE6xwRgK5QRxrl4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\AlejandriaApi\\Alejandria.Api\\Alejandria.Api.csproj",
+  "projectFilePath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Api\\Alejandria.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

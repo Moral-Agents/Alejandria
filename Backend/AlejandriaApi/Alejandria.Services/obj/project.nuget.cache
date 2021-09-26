@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T494cmaQKXedk2MW2o17DBvJfR/1or2F4a5n1PEqdwi+9Qnrnxub4n3I0PJVF7eqaUbWMXLKqtYDLmOTrIrDRA==",
+  "dgSpecHash": "NhQHklYVS0zTyO2CYUpf8NpzAbZkmxcaHWf/gyP+lF0lnSJUM2+AjD2voFXcKuY6X1/YZsECMpIh2KclN9RQAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\AlejandriaApi\\Alejandria.Services\\Alejandria.Services.csproj",
+  "projectFilePath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Services\\Alejandria.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

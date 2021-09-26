@@ -11,3 +11,16 @@ C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\nets
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.dll
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CopyComplete
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.deps.json
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.AssemblyReference.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfoInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfo.cs
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CopyComplete
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.pdb

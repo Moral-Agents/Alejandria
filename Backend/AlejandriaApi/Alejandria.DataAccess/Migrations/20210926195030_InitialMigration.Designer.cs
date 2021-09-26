@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Alejandria.DataAccess.Migrations
 {
     [DbContext(typeof(AlejandriaDbContext))]
-    [Migration("20210926185310_InitialMigration")]
+    [Migration("20210926195030_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

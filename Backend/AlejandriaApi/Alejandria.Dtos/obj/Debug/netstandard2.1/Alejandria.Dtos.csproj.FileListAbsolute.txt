@@ -8,3 +8,13 @@ C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandar
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.dll
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.deps.json
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.AssemblyReference.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfoInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfo.cs
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.pdb

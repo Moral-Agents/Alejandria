@@ -8,3 +8,13 @@ C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netsta
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.deps.json
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.AssemblyReference.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfoInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfo.cs
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb

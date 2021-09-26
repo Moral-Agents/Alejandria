@@ -13,3 +13,18 @@ C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netsta
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.AssemblyReference.cache
 C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.CopyComplete
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.deps.json
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.DataAccess.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.AssemblyReference.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.AssemblyInfoInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.AssemblyInfo.cs
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.CopyComplete
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.dll
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.pdb
