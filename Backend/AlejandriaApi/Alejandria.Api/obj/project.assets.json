@@ -1609,6 +1609,16 @@
           "bin/placeholder/Alejandria.DataAccess.dll": {}
         }
       },
+      "Alejandria.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Alejandria.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Dtos.dll": {}
+        }
+      },
       "Alejandria.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1626,7 +1636,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "Alejandria.DataAccess": "1.0.0"
+          "Alejandria.DataAccess": "1.0.0",
+          "Alejandria.Dtos": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2"
         },
         "compile": {
           "bin/placeholder/Alejandria.Services.dll": {}
@@ -5965,6 +5977,11 @@
       "type": "project",
       "path": "../Alejandria.DataAccess/Alejandria.DataAccess.csproj",
       "msbuildProject": "../Alejandria.DataAccess/Alejandria.DataAccess.csproj"
+    },
+    "Alejandria.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Dtos/Alejandria.Dtos.csproj",
+      "msbuildProject": "../Alejandria.Dtos/Alejandria.Dtos.csproj"
     },
     "Alejandria.Entities/1.0.0": {
       "type": "project",

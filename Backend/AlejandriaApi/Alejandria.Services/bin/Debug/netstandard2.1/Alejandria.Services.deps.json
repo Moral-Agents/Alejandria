@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.1/": {
       "Alejandria.Services/1.0.0": {
         "dependencies": {
-          "Alejandria.DataAccess": "1.0.0"
+          "Alejandria.DataAccess": "1.0.0",
+          "Alejandria.Dtos": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2"
         },
         "runtime": {
           "Alejandria.Services.dll": {}
@@ -1510,6 +1512,11 @@
           "Alejandria.DataAccess.dll": {}
         }
       },
+      "Alejandria.Dtos/1.0.0": {
+        "runtime": {
+          "Alejandria.Dtos.dll": {}
+        }
+      },
       "Alejandria.Entities/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
@@ -2395,6 +2402,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Alejandria.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

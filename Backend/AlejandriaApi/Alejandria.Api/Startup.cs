@@ -1,4 +1,5 @@
 using Alejandria.DataAccess;
+using Alejandria.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,8 @@ namespace Alejandria.Api
         {
 
             services.AddControllers();
+
+            services.AddInjection();
 
             services.AddDbContext<AlejandriaDbContext>(
                 options => options.UseSqlServer(@"Server = USER\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));

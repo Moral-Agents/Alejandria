@@ -2049,6 +2049,16 @@
           "bin/placeholder/Alejandria.DataAccess.dll": {}
         }
       },
+      "Alejandria.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Alejandria.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Dtos.dll": {}
+        }
+      },
       "Alejandria.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -7098,6 +7108,11 @@
       "path": "../Alejandria.DataAccess/Alejandria.DataAccess.csproj",
       "msbuildProject": "../Alejandria.DataAccess/Alejandria.DataAccess.csproj"
     },
+    "Alejandria.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Dtos/Alejandria.Dtos.csproj",
+      "msbuildProject": "../Alejandria.Dtos/Alejandria.Dtos.csproj"
+    },
     "Alejandria.Entities/1.0.0": {
       "type": "project",
       "path": "../Alejandria.Entities/Alejandria.Entities.csproj",
@@ -7106,7 +7121,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Alejandria.DataAccess >= 1.0.0"
+      "Alejandria.DataAccess >= 1.0.0",
+      "Alejandria.Dtos >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -7145,6 +7162,9 @@
           "projectReferences": {
             "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj": {
               "projectPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj"
+            },
+            "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Dtos\\Alejandria.Dtos.csproj": {
+              "projectPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Dtos\\Alejandria.Dtos.csproj"
             }
           }
         }
@@ -7158,6 +7178,12 @@
     "frameworks": {
       "netstandard2.1": {
         "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
