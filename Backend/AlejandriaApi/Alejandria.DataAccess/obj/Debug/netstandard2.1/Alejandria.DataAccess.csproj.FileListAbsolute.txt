@@ -1,0 +1,13 @@
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.deps.json
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CopyComplete

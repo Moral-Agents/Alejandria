@@ -1,0 +1,10 @@
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.deps.json
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb

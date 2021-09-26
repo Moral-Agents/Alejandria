@@ -1,0 +1,15 @@
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.deps.json
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Services.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.DataAccess.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Services\obj\Debug\netstandard2.1\Alejandria.Services.csproj.CopyComplete

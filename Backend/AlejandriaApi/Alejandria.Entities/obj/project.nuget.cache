@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uaJPTBb0UJEEcP3OCwXxNEwe/7xfxk/xPmBnXyxIDo5LL4yUlLlAirgoTrdlbKi1LmFcNpHNyfskM2HGTWOVVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

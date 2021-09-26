@@ -1,0 +1,10 @@
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.deps.json
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.pdb
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\USUARIO\source\repos\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.pdb
