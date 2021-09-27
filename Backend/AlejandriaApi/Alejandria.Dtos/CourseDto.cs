@@ -7,6 +7,7 @@ namespace Alejandria.Dtos
 {
 	public class CourseDto
 	{
+	public int Id { get; set; }
 	public string Name { get; set; }
 	public string TeacherName { get; set; }
 	public bool TeacherLink { get; set; }
