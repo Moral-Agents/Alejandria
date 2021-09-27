@@ -12,9 +12,9 @@ namespace Alejandria.DataAccess
 
         Course GetItem(int id);
 
-        void Create(User entity);
+        void Create(Course entity);
 
-        void Update(User entity);
+        void Update(Course entity);
 
         void Delete(int id);
     }
