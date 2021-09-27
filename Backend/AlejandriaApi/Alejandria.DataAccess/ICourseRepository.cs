@@ -8,9 +8,9 @@ namespace Alejandria.DataAccess
 {
     public interface ICourseRepository
     {
-        ICollection<User> GetCollection(string filter);
+        ICollection<Course> GetCollection(string filter);
 
-        User GetItem(int id);
+        Course GetItem(int id);
 
         void Create(User entity);
 
