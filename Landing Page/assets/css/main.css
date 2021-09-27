@@ -4848,3 +4848,7 @@ blockquote span {
   color: #ff6b81;
   background-color: #fff;
 }
+
+.half{
+  justify-content: center;
+}
