@@ -134,3 +134,6 @@ E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Api
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.genruntimeconfig.cache
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Api\bin\Debug\net5.0\Alejandria.Dtos.dll
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Api\bin\Debug\net5.0\Alejandria.Dtos.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\ref\Alejandria.Api.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.pdb
