@@ -15,7 +15,7 @@ namespace Alejandria.DataAccess.Migrations
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     TeacherName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     TeacherLink = table.Column<bool>(type: "bit", nullable: false),
-                    TeacherCode = table.Column<int>(type: "int", nullable: true),
+                    TeacherCode = table.Column<int>(type: "int", nullable: false),
                     TeacherMessage = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

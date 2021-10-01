@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Alejandria.DataAccess
 {
@@ -16,14 +17,14 @@ namespace Alejandria.DataAccess
 			_context = context;
 		}
 
-		public void Create(Course entity)
+		public async Task Create(Course entity)
 		{
-			_context.Set<Course>().Add(entity);
+			await _context.Set<Course>().AddAsync(entity);
 
-			_context.SaveChanges();
+			await _context.SaveChangesAsync();
 		}
 
-		public void Delete(int id)
+		public async Task Delete(int id)
 		{
 			_context.Entry(new Course
 			{
@@ -31,27 +32,29 @@ namespace Alejandria.DataAccess
 
 			}).State = EntityState.Deleted;
 
-			_context.SaveChanges();
+			await _context.SaveChangesAsync();
 		}
 
-		public ICollection<Course> GetCollection(string filter)
+		public async Task<ICollection<Course>> GetCollection(string filter)
 		{
-			return _context.Course
+			var collection = await _context.Courses
 				.Where(c => c.Name.Contains(filter))
-				.ToList();
+				.ToListAsync();
+
+			return collection;
 		}
 
-		public Course GetItem(int id)
+		public async Task<Course> GetItem(int id)
 		{
-			return _context.Course.Find(id);
+			return await _context.Courses.FindAsync(id);
 		}
 
-		public void Update(Course entity)
+		public async Task Update(Course entity)
 		{
 			_context.Set<Course>().Attach(entity);
 			_context.Entry(entity).State = EntityState.Modified;
 
-			_context.SaveChanges();
+			await _context.SaveChangesAsync();
 		}
 	}
 }

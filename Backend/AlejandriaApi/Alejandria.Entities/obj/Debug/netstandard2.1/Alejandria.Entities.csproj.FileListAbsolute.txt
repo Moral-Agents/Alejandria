@@ -18,3 +18,13 @@ E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Ent
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
 E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.deps.json
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.AssemblyReference.cache
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfoInputs.cache
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfo.cs
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb

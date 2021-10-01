@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GAGMlAi+SzvBrE9Hb+NvfZbhEPNeBfDf4p7CklIpFz579r9NYPDvLeZYtwDuIf8i8lmDZCnPzCjrmWA7kvbNmw==",
+  "dgSpecHash": "pvI4UlzYmLdiQ1PhdgZYaovh87861STA9brwNabmt07mPbbSoh4qj41oaq3+7Y8RX/9sA/XfGEhRB6lgBgV7SQ==",
   "success": true,
-  "projectFilePath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
+  "projectFilePath": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\steph\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
