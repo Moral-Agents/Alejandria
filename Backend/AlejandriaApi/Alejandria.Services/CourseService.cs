@@ -88,14 +88,20 @@ namespace Alejandria.Services
 
         public async Task Update(int id, CourseDto request)
         {
-            await _repository.Update(new Course
+            var course = await _repository.GetItem(id);
+
+            if (course != null)
             {
-                Name = request.Name,
-                TeacherName = request.TeacherName,
-                TeacherLink = request.TeacherLink,
-                TeacherCode = request.TeacherCode,
-                TeacherMessage = request.TeacherMessage
-            });
+                await _repository.Update(new Course
+                {
+                    Name = request.Name,
+                    TeacherName = request.TeacherName,
+                    TeacherLink = request.TeacherLink,
+                    TeacherCode = request.TeacherCode,
+                    TeacherMessage = request.TeacherMessage
+                });
+            }
+            
         }
     }
 }

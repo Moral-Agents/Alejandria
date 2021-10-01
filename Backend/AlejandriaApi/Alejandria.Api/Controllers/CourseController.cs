@@ -37,5 +37,20 @@ namespace Alejandria.Api.Controllers
         {
             await _service.Create(request);
         }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task Delete(int id)
+        {
+            await _service.Delete(id);
+        }
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task Update(int id, [FromBody] CourseDto request)
+        {
+            await _service.Update(id, request);
+        }
+
     }
 }
