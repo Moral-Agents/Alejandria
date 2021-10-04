@@ -53,7 +53,6 @@ namespace Alejandria.DataAccess
 		public async Task Update(Course entity)
 		{
 			_context.Set<Course>().Attach(entity);
-
 			await _context.SaveChangesAsync();
 		}
 	}

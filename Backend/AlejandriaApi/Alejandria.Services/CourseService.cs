@@ -92,14 +92,13 @@ namespace Alejandria.Services
 
             if (course != null)
             {
-                await _repository.Update(new Course
-                {
-                    Name = request.Name,
-                    TeacherName = request.TeacherName,
-                    TeacherLink = request.TeacherLink,
-                    TeacherCode = request.TeacherCode,
-                    TeacherMessage = request.TeacherMessage
-                });
+                course.Name = request.Name;
+                course.TeacherCode = request.TeacherCode;
+                course.TeacherLink = request.TeacherLink;
+                course.TeacherMessage = request.TeacherMessage;
+                course.TeacherName = request.TeacherName;
+
+                await _repository.Update(course);
             }
             
         }
