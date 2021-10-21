@@ -10,11 +10,12 @@ namespace Alejandria.Services
     {
         public static IServiceCollection AddInjection(this IServiceCollection services)
         {
-            services.AddTransient<ICourseRepository, CourseRepository>();
-            services.AddTransient<ICourseService, CourseService>();
-
             return services.AddTransient<IUserRepository, UserRepository>()
-                .AddTransient<IUserService, UserService>();
+                .AddTransient<IUserService, UserService>()
+                .AddTransient<ICourseRepository, CourseRepository>()
+                .AddTransient<ICourseService, CourseService>()
+                .AddTransient<ICommentRepository, CommentRepository>()
+                .AddTransient<ICommentService, CommentService>();
         }
     }
 }
