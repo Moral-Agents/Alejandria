@@ -2,19 +2,20 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Alejandria.DataAccess
 {
     public interface IUserRepository
     {
-        ICollection<User> GetCollection(string filter);
+        Task<ICollection<User>> GetCollection(string filter);
 
-        User GetItem(int id);
+        Task<User> GetItem(int id);
 
-        void Create(User entity);
+        Task Create(User entity);
 
-        void Update(User entity);
+        Task Update(User entity);
 
-        void Delete(int id);
+        Task Delete(int id);
     }
 }

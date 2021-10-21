@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wYnY0E3GFqz4PuEiFPCQerX3epXfQMDgW9MRTFfzjUDf4ybACXAGlwsNuO8mDsq0N1tCvihEyqx4VmPgdiJ4/g==",
+  "dgSpecHash": "uP+0d18un3HdCZ96ov8Iuj2o7HICvfd0cQGNVuZTvqXuA/rHc1lzJ9l514yafWQd4Z4fMTiSWU7h8W5Kau5XkQ==",
   "success": true,
   "projectFilePath": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Api\\Alejandria.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steph\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\steph\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

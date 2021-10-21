@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Alejandria.DataAccess
 {
@@ -15,44 +16,40 @@ namespace Alejandria.DataAccess
         {
             _context = context;
         }
-
-
-        public void Create(User entity)
+        public async Task Create(User entity)
         {
-            _context.Set<User>().Add(entity);
-
-            _context.SaveChanges();
+            await _context.Set<User>().AddAsync(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
             _context.Entry(new User
             {
                 Id = id
-
             }).State = EntityState.Deleted;
 
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public ICollection<User> GetCollection(string filter)
+        public async Task<ICollection<User>> GetCollection(string filter)
         {
-            return _context.Users
+            var collection = await _context.Users
                 .Where(c => c.Name.Contains(filter))
-                .ToList();
+                .ToListAsync();
+
+            return collection;
         }
 
-        public User GetItem(int id)
+        public async Task<User> GetItem(int id)
         {
-            return _context.Users.Find(id);
+            return await _context.Users.FindAsync(id);
         }
 
-        public void Update(User entity)
+        public async Task Update(User entity)
         {
             _context.Set<User>().Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
-
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

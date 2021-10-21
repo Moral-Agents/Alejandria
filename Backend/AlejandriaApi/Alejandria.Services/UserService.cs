@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Alejandria.Services
 {
@@ -17,55 +18,85 @@ namespace Alejandria.Services
             _repository = repository;
         }
 
-        public void Create(UserDto entity)
+        public async Task Create(UserDto entity)
         {
-            _repository.Create(new User
+            try
             {
-                Email = entity.Email,
-                Password = entity.Password,
-                Role = entity.Role,
-                Institution = entity.Institution,
-                Name = entity.Name
-            });
+                await _repository.Create(new User
+                {
+                    Email = entity.Email,
+                    Password = entity.Password,
+                    Role = entity.Role,
+                    Institution = entity.Institution,
+                    Name = entity.Name
+                });
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _repository.Delete(id);
+            await _repository.Delete(id);
         }
 
-        public ICollection<UserDto> GetCollection(string filter)
+        public async Task<ICollection<UserDto>> GetCollection(string filter)
         {
-            var collection = _repository.GetCollection(filter ?? string.Empty);
+            var collection = await _repository.GetCollection(filter ?? string.Empty);
 
             return collection
-                .Select(c => new UserDto
+                .Select(p => new UserDto
                 {
-                    Id = c.Id,
-                    Email = c.Email,
-                    Password = c.Password,
-                    Role = c.Role,
-                    Institution = c.Institution,
-                    Name = c.Name
+                    Id = p.Id,
+                    Name = p.Name,
+                    Institution = p.Institution,
+                    Role = p.Role,
+                    Email = p.Email
                 })
                 .ToList();
         }
 
-        public UserDto GetUser(int id)
+        public async Task<ResponseDto<UserDto>> GetUser(int id)
         {
-            throw new NotImplementedException();
+            var response = new ResponseDto<UserDto>();
+            var user = await _repository.GetItem(id);
+
+            if (user == null)
+            {
+                response.Success = false;
+                return response;
+            }
+
+            response.Result = new UserDto
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Institution = user.Institution,
+                Role = user.Role,
+                Email = user.Email
+            };
+
+            response.Success = true;
+
+            return response;
         }
 
-        public void Update(int id, UserDto entity)
+        public async Task Update(int id, UserDto entity)
         {
-            _repository.Update(new User
+            var user = await _repository.GetItem(id);
+
+            if (user != null)
             {
-                Email = entity.Email,
-                Password = entity.Password,
-                Role = entity.Role,
-                Institution = entity.Institution,
-                Name = entity.Name
-            });
+                user.Name = entity.Name;
+                user.Institution = entity.Institution;
+                user.Role = entity.Role;
+                user.Email = entity.Email;
+                user.Password = entity.Password;
+
+                await _repository.Update(user);
+            }
         }
     }
 }

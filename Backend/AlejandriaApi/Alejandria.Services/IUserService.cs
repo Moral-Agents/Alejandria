@@ -2,19 +2,20 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Alejandria.Services
 {
     public interface IUserService
     {
-        ICollection<UserDto> GetCollection(string filter);
+        Task<ICollection<UserDto>> GetCollection(string filter);
 
-        UserDto GetUser(int id);
+        Task<ResponseDto<UserDto>> GetUser(int id);
 
-        void Create(UserDto entity);
+        Task Create(UserDto entity);
 
-        void Update(int id, UserDto entity);
+        Task Update(int id, UserDto entity);
 
-        void Delete(int id);
+        Task Delete(int id);
     }
 }

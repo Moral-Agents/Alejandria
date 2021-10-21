@@ -26,12 +26,10 @@ namespace Alejandria.DataAccess
 
 		public async Task Delete(int id)
 		{
-			var course = new Course()
+			_context.Entry(new Course
 			{
 				Id = id
-			};
-
-			_context.Courses.Remove(course);
+			}).State = EntityState.Deleted;
 
 			await _context.SaveChangesAsync();
 		}

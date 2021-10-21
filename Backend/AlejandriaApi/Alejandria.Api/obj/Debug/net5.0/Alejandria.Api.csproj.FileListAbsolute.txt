@@ -206,3 +206,4 @@ D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.RazorTargetAssemblyInfo.cache
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.csproj.CopyComplete
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.genruntimeconfig.cache
+D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
