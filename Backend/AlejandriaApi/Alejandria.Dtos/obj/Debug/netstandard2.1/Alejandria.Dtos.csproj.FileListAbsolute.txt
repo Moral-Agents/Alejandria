@@ -28,3 +28,13 @@ D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.dll
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.deps.json
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Debug\netstandard2.1\Alejandria.Dtos.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfoInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.AssemblyInfo.cs
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Debug\netstandard2.1\Alejandria.Dtos.pdb

@@ -28,3 +28,13 @@ D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Enti
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.deps.json
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfoInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.AssemblyInfo.cs
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Debug\netstandard2.1\Alejandria.Entities.pdb

@@ -39,3 +39,14 @@ D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Data
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.dll
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
 D:\Users\steph\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CopyComplete
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.deps.json
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.DataAccess.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.dll
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\bin\Debug\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.AssemblyInfo.cs
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.DataAccess\obj\Debug\netstandard2.1\Alejandria.DataAccess.csproj.CopyComplete
