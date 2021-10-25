@@ -41,7 +41,7 @@ namespace Alejandria.Api
             services.AddInjection();
 
             services.AddDbContext<AlejandriaDbContext>(
-                options => options.UseSqlServer(@"Server = LAPTOP-VRDERIB6\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));
+                options => options.UseSqlServer(@"Server = DESKTOP-I0F6AEQ; Database=AlejandriaDb; Integrated Security = true; "));
 
             services.AddSwaggerGen(c =>
             {

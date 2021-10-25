@@ -52,5 +52,12 @@ namespace Alejandria.Api.Controllers
         {
             await _service.Update(id, request);
         }
+
+        [HttpGet]
+        [Route("courses/{courseId:int}")]
+        public async Task<IEnumerable<CommentDto>> List(int courseId)
+        {
+            return await _service.GetCollection(courseId);
+        }
     }
 }

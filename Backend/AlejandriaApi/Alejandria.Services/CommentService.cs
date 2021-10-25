@@ -89,5 +89,21 @@ namespace Alejandria.Services
                 await _repository.Update(comment);
             }
         }
+
+        public async Task<ICollection<CommentDto>> GetCollection(int id)
+        {
+            var collection = await _repository.GetCollectionByCourseId(id);
+
+            return collection.
+                Select(p => new CommentDto
+                {
+                    Id = p.Id,
+                    Description = p.Description,
+                    CourseId = p.CourseId,
+                    UserId = p.UserId
+                })
+                .ToList();
+
+        }
     }
 }

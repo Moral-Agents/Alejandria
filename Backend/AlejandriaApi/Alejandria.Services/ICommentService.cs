@@ -13,5 +13,7 @@ namespace Alejandria.Services
         Task Create(CommentDto request);
         Task Update(int id, CommentDto request);
         Task Delete(int id);
+
+        Task<ICollection<CommentDto>> GetCollection(int id);
     }
 }

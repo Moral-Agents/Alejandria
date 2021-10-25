@@ -1,0 +1,10 @@
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Release\netstandard2.1\Alejandria.Entities.deps.json
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Release\netstandard2.1\Alejandria.Entities.dll
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\bin\Release\netstandard2.1\Alejandria.Entities.pdb
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.csproj.AssemblyReference.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.AssemblyInfoInputs.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.AssemblyInfo.cs
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.csproj.CoreCompileInputs.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.dll
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Entities\obj\Release\netstandard2.1\Alejandria.Entities.pdb

@@ -52,5 +52,6 @@ namespace Alejandria.Api.Controllers
         {
             return await _service.GetCollection(filter);
         }
+
     }
 }

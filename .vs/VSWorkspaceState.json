@@ -5,11 +5,11 @@
     "\\Backend\\AlejandriaApi",
     "\\Backend\\AlejandriaApi\\Alejandria.Api",
     "\\Backend\\AlejandriaApi\\Alejandria.Api\\Properties",
+    "\\Backend\\AlejandriaApi\\Alejandria.DataAccess",
     "\\Backend\\AlejandriaApi\\Alejandria.Dtos",
     "\\Backend\\AlejandriaApi\\Alejandria.Entities",
-    "\\Backend\\AlejandriaApi\\Alejandria.Services",
-    "\\Backend\\AlejandriaApi\\Alejandria.Services\\bin\\Debug\\netstandard2.1"
+    "\\Backend\\AlejandriaApi\\Alejandria.Services"
   ],
-  "SelectedNode": "\\Backend\\AlejandriaApi\\Alejandria.Api\\Alejandria.Api.csproj",
+  "SelectedNode": "\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\CommentRepository.cs",
   "PreviewInSolutionExplorer": false
 }

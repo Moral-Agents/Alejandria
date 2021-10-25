@@ -43,7 +43,11 @@ namespace Alejandria.DataAccess
 
         public async Task<ICollection<Comment>> GetCollectionByCourseId(int courseId)
         {
-            throw new NotImplementedException();
+            var collection = await _context.Comments
+                .Where(c => c.CourseId.Equals(courseId))
+                .ToListAsync();
+
+            return collection;
         }
 
         public async Task<Comment> GetItem(int id)

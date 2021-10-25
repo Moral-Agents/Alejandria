@@ -1,0 +1,10 @@
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Release\netstandard2.1\Alejandria.Dtos.deps.json
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Release\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\bin\Release\netstandard2.1\Alejandria.Dtos.pdb
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.csproj.AssemblyReference.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.AssemblyInfoInputs.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.AssemblyInfo.cs
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.dll
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Dtos\obj\Release\netstandard2.1\Alejandria.Dtos.pdb
