@@ -13,5 +13,7 @@ namespace Alejandria.Services
         Task Create(RatingDto request);
         Task Update(int id, RatingDto request);
         Task Delete(int id);
+
+        Task<ICollection<RatingDto>> GetCollection(int id);
     }
 }

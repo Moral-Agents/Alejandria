@@ -21,7 +21,7 @@ namespace Alejandria.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-                .UseSqlServer(@"Server = DESKTOP-I0F6AEQ; Database=AlejandriaDb; Integrated Security = true; ");
+                .UseSqlServer(@"Server = USER\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; ");
         }
 
         public DbSet<User> Users { get; set; }

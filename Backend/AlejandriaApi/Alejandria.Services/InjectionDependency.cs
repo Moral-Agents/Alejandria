@@ -15,7 +15,10 @@ namespace Alejandria.Services
                 .AddTransient<ICourseRepository, CourseRepository>()
                 .AddTransient<ICourseService, CourseService>()
                 .AddTransient<ICommentRepository, CommentRepository>()
-                .AddTransient<ICommentService, CommentService>();
+                .AddTransient<ICommentService, CommentService>()
+                .AddTransient<IRatingRepository, RatingRepository>()
+                .AddTransient<IRatingService, RatingService>();
+
         }
     }
 }

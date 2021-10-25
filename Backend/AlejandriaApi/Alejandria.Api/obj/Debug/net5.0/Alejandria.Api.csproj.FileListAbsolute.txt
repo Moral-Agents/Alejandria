@@ -343,3 +343,4 @@ C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\o
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\scopedcss\bundle\Alejandria.Api.styles.css
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.RazorTargetAssemblyInfo.cache
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Api\obj\Debug\net5.0\Alejandria.Api.genruntimeconfig.cache
+E:\Nueva carpeta (2)\Alejandría\Alejandria\Backend\AlejandriaApi\Alejandria.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll

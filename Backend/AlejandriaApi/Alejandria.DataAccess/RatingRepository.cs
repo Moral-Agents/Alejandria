@@ -16,6 +16,7 @@ namespace Alejandria.DataAccess
         {
             _context = context;
         }
+
         public async Task Create(Rating entity)
         {
             await _context.Set<Rating>().AddAsync(entity);
@@ -42,7 +43,11 @@ namespace Alejandria.DataAccess
 
         public async Task<ICollection<Rating>> GetCollectionByCourseId(int courseId)
         {
-            throw new NotImplementedException();
+            var collection = await _context.Ratings
+                .Where(c => c.CourseId.Equals(courseId))
+                .ToListAsync();
+
+            return collection;
         }
 
         public async Task<Rating> GetItem(int id)

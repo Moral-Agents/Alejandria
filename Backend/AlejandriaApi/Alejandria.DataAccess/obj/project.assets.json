@@ -7186,19 +7186,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC01\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj",
+      "projectUniqueName": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj",
       "projectName": "Alejandria.DataAccess",
-      "projectPath": "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\PC01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\obj\\",
+      "projectPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7212,8 +7219,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {
-              "projectPath": "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj"
+            "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {
+              "projectPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj"
             }
           }
         }
@@ -7258,7 +7265,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

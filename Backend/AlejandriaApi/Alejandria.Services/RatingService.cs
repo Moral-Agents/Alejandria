@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Alejandria.Services
 {
     public class RatingService : IRatingService
@@ -90,6 +89,21 @@ namespace Alejandria.Services
 
                 await _repository.Update(response);
             }
+        }
+
+        public async Task<ICollection<RatingDto>> GetCollection(int id)
+        {
+            var collection = await _repository.GetCollectionByCourseId(id);
+
+            return collection.
+                Select(p => new RatingDto
+                {
+                    Id = p.Id,
+                    Score = p.Score,
+                    CourseId = p.CourseId,
+                    UserId = p.UserId
+                })
+                .ToList();
         }
     }
 }

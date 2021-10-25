@@ -28,7 +28,8 @@ namespace Alejandria.Services
                     UserId = request.UserId,
                     CourseId = request.CourseId
                 });
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
             {
                 throw;
             }
@@ -103,7 +104,6 @@ namespace Alejandria.Services
                     UserId = p.UserId
                 })
                 .ToList();
-
         }
     }
 }
