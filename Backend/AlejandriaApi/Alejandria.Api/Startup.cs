@@ -41,7 +41,7 @@ namespace Alejandria.Api
             services.AddInjection();
 
             services.AddDbContext<AlejandriaDbContext>(
-                options => options.UseSqlServer(@"Server = USER\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));
+                options => options.UseSqlServer(@"Server = LAPTOP-VRDERIB6\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));
 
             services.AddSwaggerGen(c =>
             {
@@ -55,9 +55,9 @@ namespace Alejandria.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alejandria.Api v1"));
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alejandria.Api v1"));
 
             app.UseHttpsRedirection();
 
