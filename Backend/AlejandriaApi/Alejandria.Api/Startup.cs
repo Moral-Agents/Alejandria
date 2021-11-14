@@ -41,7 +41,7 @@ namespace Alejandria.Api
             services.AddInjection();
 
             services.AddDbContext<AlejandriaDbContext>(
-                options => options.UseSqlServer(@"Server = LAPTOP-VRDERIB6\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));
+                options => options.UseSqlServer(@"Server = sql5097.site4now.net; Database = db_a7c7cc_alejandriadb; user = db_a7c7cc_alejandriadb_admin; pwd = alejandria2021;"));
 
             services.AddSwaggerGen(c =>
             {
