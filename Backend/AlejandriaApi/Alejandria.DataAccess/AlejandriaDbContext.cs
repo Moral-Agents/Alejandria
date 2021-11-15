@@ -21,11 +21,9 @@ namespace Alejandria.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-<<<<<<< Updated upstream
-                .UseSqlServer(@"Server = USER\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; ");
-=======
-                .UseSqlServer(@"Server = moralagents; Database=Alejandria.Api_db; Integrated Security = true; ");
->>>>>>> Stashed changes
+
+                .UseSqlServer(@"Server = sql5097.site4now.net; Database = db_a7c7cc_alejandriadb; user = db_a7c7cc_alejandriadb_admin; pwd = alejandria2021;");
+
         }
 
         public DbSet<User> Users { get; set; }

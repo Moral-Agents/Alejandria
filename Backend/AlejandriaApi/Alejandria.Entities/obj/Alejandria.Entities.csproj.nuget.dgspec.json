@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {}
+    "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {}
   },
   "projects": {
-    "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {
+    "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
+        "projectUniqueName": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
         "projectName": "Alejandria.Entities",
-        "projectPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "E:\\Nueva carpeta (2)\\Alejandría\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\obj\\",
+        "projectPath": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\Alejandria.Entities.csproj",
+        "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
