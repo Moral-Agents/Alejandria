@@ -83,6 +83,22 @@ namespace Alejandria.Services
             return response;
         }
 
+        public async Task<ICollection<UserDto>> GetCollectionE(string email, string pwd)
+        {
+            var collection = await _repository.GetCollectionE(email, pwd);
+
+            return collection
+                .Select(p => new UserDto
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Institution = p.Institution,
+                    Role = p.Role,
+                    Email = p.Email
+                })
+                .ToList();
+        }
+
         public async Task Update(int id, UserDto entity)
         {
             var user = await _repository.GetItem(id);

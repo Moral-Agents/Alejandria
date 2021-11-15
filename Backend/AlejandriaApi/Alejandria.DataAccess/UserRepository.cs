@@ -41,6 +41,15 @@ namespace Alejandria.DataAccess
             return collection;
         }
 
+        public async Task<ICollection<User>> GetCollectionE(string email, string pwd)
+        {
+            var collection = await _context.Users
+                .Where(c => c.Email.Equals(email) && c.Password.Equals(pwd))
+                .ToListAsync();
+            Console.WriteLine(email);
+            return collection;
+        }
+
         public async Task<User> GetItem(int id)
         {
             return await _context.Users.FindAsync(id);

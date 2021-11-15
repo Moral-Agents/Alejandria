@@ -10,6 +10,8 @@ namespace Alejandria.DataAccess
     {
         Task<ICollection<User>> GetCollection(string filter);
 
+        Task<ICollection<User>> GetCollectionE(string email, string pwd);
+
         Task<User> GetItem(int id);
 
         Task Create(User entity);

@@ -33,6 +33,13 @@ namespace Alejandria.Api.Controllers
             return await _service.GetUser(id);
         }
 
+        [HttpGet]
+        [Route("{email:minlength(2)}/{pwd:minlength(2)}")]
+        public async Task<IEnumerable<UserDto>> GetUserByEmailAndPwd(string email, string pwd)
+        {
+            return await _service.GetCollectionE(email, pwd);
+        }
+
         [HttpDelete]
         [Route("{id:int}")]
         public async Task Delete(int id)

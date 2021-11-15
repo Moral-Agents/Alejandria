@@ -10,6 +10,8 @@ namespace Alejandria.Services
     {
         Task<ICollection<UserDto>> GetCollection(string filter);
 
+        Task<ICollection<UserDto>> GetCollectionE(string email, string pwd);
+
         Task<ResponseDto<UserDto>> GetUser(int id);
 
         Task Create(UserDto entity);
@@ -17,5 +19,7 @@ namespace Alejandria.Services
         Task Update(int id, UserDto entity);
 
         Task Delete(int id);
+
+        
     }
 }
