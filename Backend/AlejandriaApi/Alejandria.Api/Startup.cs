@@ -41,7 +41,11 @@ namespace Alejandria.Api
             services.AddInjection();
 
             services.AddDbContext<AlejandriaDbContext>(
+<<<<<<< Updated upstream
                 options => options.UseSqlServer(@"Server = USER\SQLEXPRESS; Database=AlejandriaDb; Integrated Security = true; "));
+=======
+                options => options.UseSqlServer(@"Server = moralagents; Database=Alejandria.Api_db; Integrated Security = true; "));
+>>>>>>> Stashed changes
 
             services.AddSwaggerGen(c =>
             {
@@ -55,10 +59,11 @@ namespace Alejandria.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alejandria.Api v1"));
+                
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alejandria.Api v1"));
+            app.UseDeveloperExceptionPage();
             app.UseHttpsRedirection();
 
             app.UseRouting();

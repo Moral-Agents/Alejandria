@@ -14,3 +14,4 @@ C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Servi
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Release\netstandard2.1\Alejandria.Services.csproj.CoreCompileInputs.cache
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Release\netstandard2.1\Alejandria.Services.dll
 C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Release\netstandard2.1\Alejandria.Services.pdb
+C:\Users\PC01\Documents\GitHub\Alejandria\Backend\AlejandriaApi\Alejandria.Services\obj\Release\netstandard2.1\Alejandria.Services.csproj.CopyComplete

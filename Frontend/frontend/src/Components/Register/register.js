@@ -1,7 +1,7 @@
 import { Form, Button, Row,Container} from 'react-bootstrap'
 import React,{ useState } from 'react'
 import UserDataService from "../../Services/UserService";
-import axios from 'axios';
+import axios, { Axios } from 'axios';
 import http from '../../http-common';
 function Register (){
     
@@ -29,7 +29,7 @@ function Register (){
         institution:"UPC",
         name:"Hayek"
       };
-      await http.post(`User/`, {data})
+      await Axios.post(`https://sleepy-reaches-77294.herokuapp.com/api/v1/User`, {data})
           .then(response => {
 
           setSubmitted(true);
