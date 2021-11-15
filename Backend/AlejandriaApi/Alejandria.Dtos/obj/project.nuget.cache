@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4xwschNZ2eEM4NmPJx/ijyOFZXeS7n4ivBxMElkwpgN6MUAlIof8+9fOUsCa3uoeXxZGHDIBoRiRzB4fpihGw==",
+  "dgSpecHash": "JotncbIj5kj3K5DCqSPubSUu297GQUHpfzK8VBduGxAuS+hP8FXSodVmDvqIslZqmt8KcV+pLUTP5v3NcTApKw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\steph\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Dtos\\Alejandria.Dtos.csproj",
+  "projectFilePath": "C:\\Users\\PC01\\Documents\\GitHub\\Alejandria\\Backend\\AlejandriaApi\\Alejandria.Dtos\\Alejandria.Dtos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

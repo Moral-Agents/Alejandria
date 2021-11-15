@@ -29,16 +29,37 @@ function Register (){
         institution:"UPC",
         name:"Hayek"
       };
-      await Axios.post(`https://sleepy-reaches-77294.herokuapp.com/api/v1/User`, {data})
+      await axios.post(`https://cors-anywhere.herokuapp.com/sleepy-reaches-77294.herokuapp.com/api/v1/User`, {data})
           .then(response => {
-
+            
           setSubmitted(true);
           console.log(response);
           console.log(response.data);
           
         })
-        .catch(e => console.log(e));
-    };
+        .catch((error) => {
+          // Error 
+          if (error.response) {
+              /*
+               * The request was made and the server responded with a
+               * status code that falls out of the range of 2xx
+               */
+              console.log(error.response.data);
+              console.log(error.response.status);
+              console.log(error.response.headers);
+          } else if (error.request) {
+              /*
+               * The request was made but no response was received, `error.request`
+               * is an instance of XMLHttpRequest in the browser and an instance
+               * of http.ClientRequest in Node.js
+               */
+              console.log(error.request);
+          } else {
+              // Something happened in setting up the request and triggered an Error
+              console.log('Error', error.message);
+          }
+          console.log(error.config);})
+        };
   
     const newUser = () => {
       setUser(initialUserState);
@@ -83,10 +104,11 @@ function Register (){
                 <Form.Label>Nombre de Usuario</Form.Label>
                 <Form.Control name="name" value={user.name} onChange={handleInputChange} type="text" placeholder="Nombre de Usuario..." />
               </Form.Group>
-              <Button className="mt-3" variant="primary" type="submit" onClick={saveUser}>
+              
+            </Form>
+            <Button className="mt-3" variant="primary" type="submit" onClick={saveUser}>
                 Registrar
               </Button>
-            </Form>
            </Row>
           </Container>
       </div>
