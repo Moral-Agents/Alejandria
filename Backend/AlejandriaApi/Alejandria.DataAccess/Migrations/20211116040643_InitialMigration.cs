@@ -24,6 +24,24 @@ namespace Alejandria.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Teachers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Img = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Institution = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Course = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rating = table.Column<float>(type: "real", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Teachers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -38,6 +56,30 @@ namespace Alejandria.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Characteristics",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Atributo1 = table.Column<int>(type: "int", nullable: false),
+                    Atributo2 = table.Column<int>(type: "int", nullable: false),
+                    Atributo3 = table.Column<int>(type: "int", nullable: false),
+                    Atributo4 = table.Column<int>(type: "int", nullable: false),
+                    Atributo5 = table.Column<int>(type: "int", nullable: false),
+                    TeacherId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Characteristics", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Characteristics_Teachers_TeacherId",
+                        column: x => x.TeacherId,
+                        principalTable: "Teachers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -95,6 +137,11 @@ namespace Alejandria.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Characteristics_TeacherId",
+                table: "Characteristics",
+                column: "TeacherId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Comments_CourseId",
                 table: "Comments",
                 column: "CourseId");
@@ -118,10 +165,16 @@ namespace Alejandria.DataAccess.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Characteristics");
+
+            migrationBuilder.DropTable(
                 name: "Comments");
 
             migrationBuilder.DropTable(
                 name: "Ratings");
+
+            migrationBuilder.DropTable(
+                name: "Teachers");
 
             migrationBuilder.DropTable(
                 name: "Courses");

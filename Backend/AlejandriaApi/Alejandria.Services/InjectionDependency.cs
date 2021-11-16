@@ -17,8 +17,11 @@ namespace Alejandria.Services
                 .AddTransient<ICommentRepository, CommentRepository>()
                 .AddTransient<ICommentService, CommentService>()
                 .AddTransient<IRatingRepository, RatingRepository>()
-                .AddTransient<IRatingService, RatingService>();
-
+                .AddTransient<IRatingService, RatingService>()
+                .AddTransient<ITeacherRepository, TeacherRepository>()
+                .AddTransient<ITeacherService, TeacherService>()
+                .AddTransient<ICharacteristicRepository, CharacteristicRepository>()
+                .AddTransient<ICharacteristicService, CharacteristicService>();
         }
     }
 }

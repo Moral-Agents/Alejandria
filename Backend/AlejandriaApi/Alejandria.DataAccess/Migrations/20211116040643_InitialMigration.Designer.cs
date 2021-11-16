@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Alejandria.DataAccess.Migrations
 {
     [DbContext(typeof(AlejandriaDbContext))]
-    [Migration("20211025065731_InitialMigration")]
+    [Migration("20211116040643_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,6 +19,38 @@ namespace Alejandria.DataAccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Alejandria.Entities.Characteristic", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Atributo1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Atributo2")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Atributo3")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Atributo4")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Atributo5")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("Characteristics");
+                });
 
             modelBuilder.Entity("Alejandria.Entities.Comment", b =>
                 {
@@ -102,6 +134,39 @@ namespace Alejandria.DataAccess.Migrations
                     b.ToTable("Ratings");
                 });
 
+            modelBuilder.Entity("Alejandria.Entities.Teacher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Course")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Institution")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("Rating")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teachers");
+                });
+
             modelBuilder.Entity("Alejandria.Entities.User", b =>
                 {
                     b.Property<int>("Id")
@@ -132,6 +197,17 @@ namespace Alejandria.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Alejandria.Entities.Characteristic", b =>
+                {
+                    b.HasOne("Alejandria.Entities.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("Alejandria.Entities.Comment", b =>
