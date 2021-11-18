@@ -108,7 +108,6 @@ namespace Alejandria.Services
                 user.Name = entity.Name;
                 user.Institution = entity.Institution;
                 user.Role = entity.Role;
-                user.Email = entity.Email;
                 user.Password = entity.Password;
 
                 await _repository.Update(user);
