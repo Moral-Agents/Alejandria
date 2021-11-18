@@ -113,5 +113,20 @@ namespace Alejandria.Services
                 await _repository.Update(user);
             }
         }
+
+        public async Task<bool> VerifyEmail(string email)
+        {
+            var collection = await _repository.GetCollection(string.Empty);
+
+            foreach(var collec in collection)
+            {
+                if (collec.Email == email)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }

@@ -20,6 +20,6 @@ namespace Alejandria.Services
 
         Task Delete(int id);
 
-        
+        Task<bool> VerifyEmail(string email);
     }
 }

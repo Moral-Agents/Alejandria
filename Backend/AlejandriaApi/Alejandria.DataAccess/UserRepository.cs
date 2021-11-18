@@ -46,7 +46,6 @@ namespace Alejandria.DataAccess
             var collection = await _context.Users
                 .Where(c => c.Email.Equals(email) && c.Password.Equals(pwd))
                 .ToListAsync();
-            Console.WriteLine(email);
             return collection;
         }
 

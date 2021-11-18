@@ -21,9 +21,15 @@ namespace Alejandria.Api.Controllers
         }
 
         [HttpPost]
-        public async Task Create([FromBody] UserDto request)
+        public async Task<bool> Create([FromBody] UserDto request)
         {
-            await _service.Create(request);
+            if (await _service.VerifyEmail(request.Email))
+            {
+                await _service.Create(request);
+                return true;
+            }
+
+            return false;
         }
 
         [HttpGet]
@@ -59,6 +65,5 @@ namespace Alejandria.Api.Controllers
         {
             return await _service.GetCollection(filter);
         }
-
     }
 }
