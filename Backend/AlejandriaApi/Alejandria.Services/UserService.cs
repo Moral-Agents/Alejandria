@@ -83,6 +83,22 @@ namespace Alejandria.Services
             return response;
         }
 
+        public async Task<ICollection<UserDto>> GetCollectionE(string email, string pwd)
+        {
+            var collection = await _repository.GetCollectionE(email, pwd);
+
+            return collection
+                .Select(p => new UserDto
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Institution = p.Institution,
+                    Role = p.Role,
+                    Email = p.Email
+                })
+                .ToList();
+        }
+
         public async Task Update(int id, UserDto entity)
         {
             var user = await _repository.GetItem(id);
@@ -92,11 +108,25 @@ namespace Alejandria.Services
                 user.Name = entity.Name;
                 user.Institution = entity.Institution;
                 user.Role = entity.Role;
-                user.Email = entity.Email;
                 user.Password = entity.Password;
 
                 await _repository.Update(user);
             }
+        }
+
+        public async Task<bool> VerifyEmail(string email)
+        {
+            var collection = await _repository.GetCollection(string.Empty);
+
+            foreach(var collec in collection)
+            {
+                if (collec.Email == email)
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

@@ -11,19 +11,19 @@ namespace Alejandria.Api.Controllers
     [Route("api/v1/[controller]")]
     [ApiVersion("1.0")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class TeacherController : ControllerBase
     {
-        private readonly IUserService _service;
+        private readonly ITeacherService _service;
 
-        public UserController(IUserService service)
+        public TeacherController(ITeacherService service)
         {
             _service = service;
         }
 
         [HttpPost]
-        public async Task<bool> Create([FromBody] UserDto request)
+        public async Task<bool> Create([FromBody] TeacherDto request)
         {
-            if (await _service.VerifyEmail(request.Email))
+            if (await _service.VerifyTeacher(request.Name, request.Institution, request.Course))
             {
                 await _service.Create(request);
                 return true;
@@ -34,16 +34,15 @@ namespace Alejandria.Api.Controllers
 
         [HttpGet]
         [Route("{id:int}")]
-        public async Task<ResponseDto<UserDto>> Get(int id)
+        public async Task<ResponseDto<TeacherDto>> Get(int id)
         {
-            return await _service.GetUser(id);
+            return await _service.GetTeacher(id);
         }
 
         [HttpGet]
-        [Route("{email:minlength(2)}/{pwd:minlength(2)}")]
-        public async Task<IEnumerable<UserDto>> GetUserByEmailAndPwd(string email, string pwd)
+        public async Task<IEnumerable<TeacherDto>> List([FromQuery] string filter)
         {
-            return await _service.GetCollectionE(email, pwd);
+            return await _service.GetCollection(filter);
         }
 
         [HttpDelete]
@@ -55,15 +54,9 @@ namespace Alejandria.Api.Controllers
 
         [HttpPut]
         [Route("{id:int}")]
-        public async Task Update(int id, [FromBody] UserDto request)
+        public async Task Update(int id, [FromBody] TeacherDto request)
         {
             await _service.Update(id, request);
-        }
-
-        [HttpGet]
-        public async Task<IEnumerable<UserDto>> List([FromQuery] string filter)
-        {
-            return await _service.GetCollection(filter);
         }
     }
 }
