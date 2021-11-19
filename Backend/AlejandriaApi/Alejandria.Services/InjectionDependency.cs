@@ -12,16 +12,10 @@ namespace Alejandria.Services
         {
             return services.AddTransient<IUserRepository, UserRepository>()
                 .AddTransient<IUserService, UserService>()
-                .AddTransient<ICourseRepository, CourseRepository>()
-                .AddTransient<ICourseService, CourseService>()
                 .AddTransient<ICommentRepository, CommentRepository>()
                 .AddTransient<ICommentService, CommentService>()
-                .AddTransient<IRatingRepository, RatingRepository>()
-                .AddTransient<IRatingService, RatingService>()
                 .AddTransient<ITeacherRepository, TeacherRepository>()
-                .AddTransient<ITeacherService, TeacherService>()
-                .AddTransient<ICharacteristicRepository, CharacteristicRepository>()
-                .AddTransient<ICharacteristicService, CharacteristicService>();
+                .AddTransient<ITeacherService, TeacherService>();
         }
     }
 }

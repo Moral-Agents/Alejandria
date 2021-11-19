@@ -29,7 +29,11 @@ namespace Alejandria.Services
                     Img = entity.Img,
                     Description = entity.Description,
                     Course = entity.Course,
-                    Rating = entity.Rating
+                    Rating = 2.5f,
+                    Attribute1 = 50,
+                    Attribute2 = 50,
+                    Attribute3 = 50,
+                    Attribute4 = 50
                 });
             }
             catch (Exception ex)
@@ -56,7 +60,11 @@ namespace Alejandria.Services
                     Img = p.Img,
                     Description = p.Description,
                     Course = p.Course,
-                    Rating = p.Rating
+                    Rating = p.Rating,
+                    Attribute1 = p.Attribute1,
+                    Attribute2 = p.Attribute2,
+                    Attribute3 = p.Attribute3,
+                    Attribute4 = p.Attribute4
                 })
                 .ToList();
         }
@@ -80,7 +88,11 @@ namespace Alejandria.Services
                 Img = teacher.Img,
                 Description = teacher.Description,
                 Course = teacher.Course,
-                Rating = teacher.Rating
+                Rating = teacher.Rating,
+                Attribute1 = teacher.Attribute1,
+                Attribute2 = teacher.Attribute2,
+                Attribute3 = teacher.Attribute3,
+                Attribute4 = teacher.Attribute4
             };
 
             response.Success = true;
@@ -100,9 +112,28 @@ namespace Alejandria.Services
                 teacher.Description = entity.Description;
                 teacher.Course = entity.Course;
                 teacher.Rating = entity.Rating;
+                teacher.Attribute1 = entity.Attribute1;
+                teacher.Attribute2 = entity.Attribute2;
+                teacher.Attribute3 = entity.Attribute3;
+                teacher.Attribute4 = entity.Attribute4;
 
                 await _repository.Update(teacher);
             }
+        }
+
+        public async Task<bool> VerifyTeacher(string name, string institution, string course)
+        {
+            var collection = await _repository.GetCollection(string.Empty);
+
+            foreach(var collec in collection)
+            {
+                if(collec.Name == name && collec.Institution == institution && collec.Course == course)
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

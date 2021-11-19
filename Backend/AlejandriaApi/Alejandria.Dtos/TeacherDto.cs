@@ -13,5 +13,9 @@ namespace Alejandria.Dtos
         public string Description { get; set; }
         public string Course { get; set; }
         public float Rating { get; set; }
+        public int Attribute1 { get; set; }
+        public int Attribute2 { get; set; }
+        public int Attribute3 { get; set; }
+        public int Attribute4 { get; set; }
     }
 }

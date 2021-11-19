@@ -21,9 +21,15 @@ namespace Alejandria.Api.Controllers
         }
 
         [HttpPost]
-        public async Task Create([FromBody] TeacherDto request)
+        public async Task<bool> Create([FromBody] TeacherDto request)
         {
-            await _service.Create(request);
+            if (await _service.VerifyTeacher(request.Name, request.Institution, request.Course))
+            {
+                await _service.Create(request);
+                return true;
+            }
+
+            return false;
         }
 
         [HttpGet]

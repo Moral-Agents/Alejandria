@@ -17,5 +17,7 @@ namespace Alejandria.Services
         Task Update(int id, TeacherDto entity);
 
         Task Delete(int id);
+
+        Task<bool> VerifyTeacher(string name, string institution, string course);
     }
 }

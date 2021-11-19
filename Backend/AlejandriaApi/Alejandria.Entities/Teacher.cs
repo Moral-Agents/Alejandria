@@ -15,6 +15,15 @@ namespace Alejandria.Entities
         public string Description { get; set; }
         [Required]
         public string Course { get; set; }
+        [Range(0, 5)]
         public float Rating { get; set; }
+        [Range(0, 100)]
+        public int Attribute1 { get; set; }
+        [Range(0, 100)]
+        public int Attribute2 { get; set; }
+        [Range(0, 100)]
+        public int Attribute3 { get; set; }
+        [Range(0, 100)]
+        public int Attribute4 { get; set; }
     }
 }

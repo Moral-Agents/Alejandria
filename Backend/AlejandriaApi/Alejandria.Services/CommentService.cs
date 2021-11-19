@@ -12,21 +12,27 @@ namespace Alejandria.Services
     public class CommentService : ICommentService
     {
         private readonly ICommentRepository _repository;
+        private readonly IUserRepository _repository1;
 
-        public CommentService(ICommentRepository repository)
+        public CommentService(ICommentRepository repository, IUserRepository repository1)
         {
             _repository = repository;
+            _repository1 = repository1;
         }
 
         public async Task Create(CommentDto request)
         {
+            var user = await _repository1.GetItem(request.UserId);
+
             try
             {
                 await _repository.Create(new Comment
                 {
                     Description = request.Description,
+                    TeacherId = request.TeacherId,
                     UserId = request.UserId,
-                    CourseId = request.CourseId
+                    Name = user.Name,
+                    DateTime = DateTime.Now
                 });
             }
             catch(Exception ex)
@@ -49,8 +55,10 @@ namespace Alejandria.Services
                 {
                     Id = p.Id,
                     Description = p.Description,
-                    CourseId = p.CourseId,
-                    UserId = p.UserId
+                    TeacherId = p.TeacherId,
+                    UserId = p.UserId,
+                    Name = p.Name,
+                    DateTime = p.DateTime
                 })
                 .ToList();
         }
@@ -70,8 +78,10 @@ namespace Alejandria.Services
             {
                 Id = comment.Id,
                 Description = comment.Description,
-                CourseId = comment.CourseId,
-                UserId = comment.UserId
+                TeacherId = comment.TeacherId,
+                UserId = comment.UserId,
+                Name = comment.Name,
+                DateTime = comment.DateTime
             };
 
             response.Success = true;
@@ -86,24 +96,10 @@ namespace Alejandria.Services
             if (comment != null)
             {
                 comment.Description = request.Description;
+                comment.DateTime = DateTime.Now;
 
                 await _repository.Update(comment);
             }
-        }
-
-        public async Task<ICollection<CommentDto>> GetCollection(int id)
-        {
-            var collection = await _repository.GetCollectionByCourseId(id);
-
-            return collection.
-                Select(p => new CommentDto
-                {
-                    Id = p.Id,
-                    Description = p.Description,
-                    CourseId = p.CourseId,
-                    UserId = p.UserId
-                })
-                .ToList();
         }
     }
 }
