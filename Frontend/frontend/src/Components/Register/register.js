@@ -2,7 +2,7 @@ import { Form, Button, Row,Container,Alert} from 'react-bootstrap'
 import React,{ useState } from 'react'
 import { useNavigate } from 'react-router';
 import UserDataService from "../../Services/UserService";
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 import http from '../../http-common';
 function Register (){
     
