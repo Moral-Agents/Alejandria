@@ -7,6 +7,7 @@ import Footer from './Components/Footer/footer.js';
 import Profile from './Components/Profile/profile';
 import DeleteProfile from './Components/Profile/deleteProfile.js';
 import UpdateProfile from './Components/Profile/updateProfile.js';
+import Assistant from './Components/Assistant/assistant.js';
 import Login from './Components/Login/login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route path="/updateProfile" element={<UpdateProfile/>}/>
           <Route path="/deleteProfile" element={<DeleteProfile/>}/>
+          <Route path="/assistant" element={<Assistant/>}/>
       </Routes>
       <Footer/>
     </div>
