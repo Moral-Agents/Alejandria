@@ -1,17 +1,18 @@
 /*
-import axios, { Axios } from 'axios';
-import {useState} from 'react';
 import { useNavigate } from 'react-router';
 */
 import { Form, Button, Row, Container, Col} from 'react-bootstrap'
 import Select from 'react-select'
+import axios from 'axios';
+import React, {useState, useEffect} from 'react';
 
+/*
 const opt_courses = [
     {value: 0, label: "Computación Gráfica"},
     {value: 1, label: "Liberalismo Económico"},
     {value: 2, label: "Matemática Básica"},
     {value: 3, label: "Contabilidad"},
-    {value: 4, label: "Programación Orientada a Objetos"},
+    {value: 4, label: "Programación Orientada a Objetos"}
 ];
 
 const opt_universities = [
@@ -21,6 +22,7 @@ const opt_universities = [
     {value: 3, label: "Universidad de Ingeniería y Tecnología"},
     {value: 4, label: "Universidad Ricardo Palma"}
 ];
+*/
 
 const opt_strict_level = [
     {value: 0, label: "Muy estricto"},
@@ -45,6 +47,17 @@ const opt_explains = [
 ];
 
 function Assistant() {
+    const [opts_courses, setCourses] = useState({});
+    const [opts_institutions, setInstitutions] = useState({});
+
+    const updateOptions = React.useCallback(async(e) => {
+        const request = await axios.get(`https://sleepy-reaches-77294.herokuapp.com/api/v1/Teacher`);
+        setCourses({value:request.data["id"]-1, label:request.data["course"]});
+        setInstitutions({value:request.data["id"]-1, label:request.data["institution"]});
+
+        console.log(request.data)
+    }, []);
+
     return (
         <div>
             <Container className="w-25 mt-5 mb-5">
@@ -52,13 +65,13 @@ function Assistant() {
                 <Row className="align-items-center">
                     <Form>
                         <div>
-                            <Form.Group className="mb-3">
+                            <Form.Group className="mb-3" onLoad={updateOptions}>
                                 <Col>
                                 <Form.Label>¿De qué universidad eres?</Form.Label>
-                                <Select options={opt_universities} className="mb-3"/>
+                                <Select options={opts_institutions} className="mb-3"/>
 
                                 <Form.Label>¿Qué curso vas a llevar?</Form.Label>
-                                <Select options={opt_courses} className="mb-3"/>
+                                <Select options={opts_courses} className="mb-3"/>
 
                                 <Form.Label>Quiero un profesor...</Form.Label>
                                 <Select options={opt_strict_level} className="mb-3"/>
