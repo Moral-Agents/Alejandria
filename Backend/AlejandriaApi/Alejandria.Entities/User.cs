@@ -18,8 +18,10 @@ namespace Alejandria.Entities
         [Range(0, 1)]
         public int Role { get; set; }
         [Required]
+        [StringLength(50, MinimumLength = 8)]
         public string Institution { get; set; }     
         [Required]
+        [StringLength(50, MinimumLength = 8)]
         public string Name { get; set; }
     }
 }

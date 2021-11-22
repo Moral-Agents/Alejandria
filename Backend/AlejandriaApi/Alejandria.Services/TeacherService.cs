@@ -18,6 +18,22 @@ namespace Alejandria.Services
             _repository = repository;
         }
 
+        public async Task<bool> VerifyTeacher(string name, string institution, string course)
+        {
+            var collection = await _repository.GetCollection(string.Empty);
+
+            foreach (var collec in collection)
+            {
+
+                if (collec.Name == name && collec.Institution == institution && collec.Course == course)
+                {
+                    return false;
+                }
+
+            }
+
+            return true;
+        }
         public async Task Create(TeacherDto entity)
         {
             try
@@ -119,21 +135,6 @@ namespace Alejandria.Services
 
                 await _repository.Update(teacher);
             }
-        }
-
-        public async Task<bool> VerifyTeacher(string name, string institution, string course)
-        {
-            var collection = await _repository.GetCollection(string.Empty);
-
-            foreach(var collec in collection)
-            {
-                if(collec.Name == name && collec.Institution == institution && collec.Course == course)
-                {
-                    return false;
-                }
-            }
-
-            return true;
-        }
+        }        
     }
 }
