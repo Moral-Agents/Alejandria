@@ -1,5 +1,6 @@
 import {  Button, Navbar, Nav,Container } from 'react-bootstrap'
 import { Link } from "react-router-dom";
+import Assistant from '../Assistant/assistant';
 function Header() {
   
     return (
@@ -9,9 +10,9 @@ function Header() {
             <Navbar.Brand> <Link style={{ textDecoration: 'none' , color:'#fff'}} to="/">Alejandría</Link> </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link>Ranking</Nav.Link>
-              <Nav.Link >Contribuir</Nav.Link>
-              <Nav.Link >Asistente</Nav.Link>
-              <Nav.Link >Contacto</Nav.Link>
+              <Nav.Link>Contribuir</Nav.Link>
+              <Nav.Link href="/assistant">Asistente</Nav.Link>
+              <Nav.Link>Contacto</Nav.Link>
             </Nav>
             <Nav>
               <Button variant="outline-dark"><Link style={{ textDecoration: 'none' , color:'#fff'}} to="/register">Registrar</Link></Button>
