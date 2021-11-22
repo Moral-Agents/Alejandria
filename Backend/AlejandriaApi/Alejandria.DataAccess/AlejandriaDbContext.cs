@@ -29,5 +29,6 @@ namespace Alejandria.DataAccess
         public DbSet<User> Users { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Answer> Answers { get; set; }
     }
 }
