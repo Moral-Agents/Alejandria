@@ -14,7 +14,6 @@ function HeaderUser() {
               <Nav.Link>Ranking</Nav.Link>
               <Nav.Link><Link style={{ textDecoration: 'none' , color:'#fff'}} to="/contribuir">Contribuir</Link></Nav.Link>
               <Nav.Link >Asistente</Nav.Link>
-              <Nav.Link >Contacto</Nav.Link>
             </Nav>
             <Nav>
               <Button variant="primary"><Link style={{ textDecoration: 'none' , color:'#fff'}} to="/profile">Perfil</Link></Button>

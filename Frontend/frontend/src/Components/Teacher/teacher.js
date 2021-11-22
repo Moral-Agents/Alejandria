@@ -1,6 +1,6 @@
 import { Container,Form,Row,Col,Button,ProgressBar,Modal } from "react-bootstrap";
 import { useParams } from 'react-router-dom';
-import {useState,useEffect} from 'react'
+import React,{useState,useEffect} from 'react';
 
 import axios from 'axios'
 
@@ -8,22 +8,83 @@ function Teacher() {
     const { id } = useParams();
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const rating_before = localStorage.getItem('ratings'+id);
+    const user_id = localStorage.getItem('user_id');
+    const handleShow = () => {
+        
+        if(rating_before != 1){
+            setShow(true);
+        }
+    };
     const [teacherData,setTeacherData] = useState([]);
-
+    
     const initialRatingState = {
         attribute1:0,
         attribute2: 0,
         attribute3: 0,
         attribute4: 0
-      };
+    };
+
+    const initialCommentState = {
+        teacherId:id,
+        userId: user_id,
+        description: "",
+    };
 
     const [rating, setRating] = useState(initialRatingState);
+    const [comment, setComment] = useState(initialCommentState);
+    const [comments, setComments] = useState([]);
+
+
+    const handleCommentChange = event => {
+        const { name, value } = event.target;
+        setComment({ ...comment, [name]: value });
+    };
 
     const handleInputChange = event => {
         const { name, value } = event.target;
         setRating({ ...rating, [name]: value });
-      };
+    };
+
+
+
+    const fetchComments = React.useCallback(async (e) => {
+        const request = await axios.get(`https://sleepy-reaches-77294.herokuapp.com/api/v1/Comment`);
+        setComments(request.data);
+    }, []);
+
+    useEffect(() => {
+        fetchComments();
+    }, []);
+
+    const saveComment = async () => {
+        let data = JSON.stringify({
+            teacherId:comment.teacherId,
+            userId:comment.userId,
+            description:comment.description
+        });
+        await axios.post(`https://sleepy-reaches-77294.herokuapp.com/api/v1/Comment`, data,{ headers: {'Content-Type': 'application/json'}})
+            .then(response => {
+              setComment({
+                teacherId:response.data.teacherId,
+                userId:response.data.userId,
+                description:response.data.description
+              });
+              window.location.reload()
+          })
+            .catch((error) => {
+              if (error.response) {
+                  console.log(error.response.data);
+                  console.log(error.response.status);
+                  console.log(error.response.headers);
+              } else if (error.request) {
+                  console.log(error.request);
+              } else {
+                  console.log('Error', error.message);
+              }
+              console.log(error.response.config);
+            })
+          };
 
     const updateRating = async () => {
         let data = JSON.stringify({
@@ -54,7 +115,9 @@ function Teacher() {
                 attribute4: data.attribute4
               });
 
-            alert("Calificado exitosamente")
+            alert("Calificado exitosamente");
+            localStorage.setItem("ratings" + id, 1);
+            window.location.reload();
             console.log(response);
             console.log(response.data);
             
@@ -88,7 +151,7 @@ function Teacher() {
           <Container className="mt-5">
               <Row>
                   <Col className="col-sm-9"><h4>{teacherData.name} / {teacherData.course}</h4></Col>
-                  <Col className="d-flex col-sm-3 justify-content-end"><Button variant="danger" onClick={handleShow}>Calificar</Button></Col>
+                  <Col className="d-flex col-sm-3 justify-content-end"><Button variant="danger" onClick={handleShow} disabled={rating_before}>Calificar</Button></Col>
               </Row>
               <Row className="mt-4">
                   <Col className="col-sm-3">
@@ -201,7 +264,29 @@ function Teacher() {
                     </Button>
                     </Modal.Footer>
               </Modal>
+              <Row className="mt-4">
+                <h4>Comentarios</h4>
+                <Form>
+                    <Form.Group className="mt-3" >
+                        <Form.Control name="description" as="textarea" style={{resize: "none" }} rows={3} onChange={handleCommentChange}/>
+                        <Button  className="mt-3" variant="primary" onClick={saveComment}>
+                            Comentar
+                        </Button>
+                    </Form.Group>
+                </Form>
+
+                <div>
+                    { comments.map(comment_ => (
+                        <div className="mt-5 mb-5">
+                            <h6>{comment_.name} / <span>{comment_.dateTime}</span></h6>
+                            <p>{comment_.description}</p>
+                        </div>
+                    ))}
+                </div>
+              </Row>
           </Container>
+
+          
       </div>
     );
   }
