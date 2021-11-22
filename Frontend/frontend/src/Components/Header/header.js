@@ -9,7 +9,7 @@ function Header() {
             <Navbar.Brand> <Link style={{ textDecoration: 'none' , color:'#fff'}} to="/">Alejandría</Link> </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link>Ranking</Nav.Link>
-              <Nav.Link >Contribuir</Nav.Link>
+              <Nav.Link> <Link style={{ textDecoration: 'none' , color:'none'}} to="/contribuir">Contribuir</Link></Nav.Link>
               <Nav.Link >Asistente</Nav.Link>
               <Nav.Link >Contacto</Nav.Link>
             </Nav>

@@ -8,8 +8,10 @@ import Profile from './Components/Profile/profile';
 import DeleteProfile from './Components/Profile/deleteProfile.js';
 import UpdateProfile from './Components/Profile/updateProfile.js';
 import Login from './Components/Login/login';
+import Teacher from './Components/Teacher/teacher.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Contribuir from './Components/Contribuir/contribuir.js';
 
 function App() {
   const user_id = localStorage.getItem('user_id');
@@ -28,6 +30,8 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route path="/updateProfile" element={<UpdateProfile/>}/>
           <Route path="/deleteProfile" element={<DeleteProfile/>}/>
+          <Route path="/contribuir" element={<Contribuir/>}/>
+          <Route path="/teacher/:id" element={<Teacher/>}/>
       </Routes>
       <Footer/>
     </div>
