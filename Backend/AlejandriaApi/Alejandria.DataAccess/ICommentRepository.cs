@@ -9,6 +9,7 @@ namespace Alejandria.DataAccess
     public interface ICommentRepository
     {
         Task<ICollection<Comment>> GetCollection();
+        Task<ICollection<Comment>> GetCollectionByTeacherId(int TeacherId);
         Task<Comment> GetItem(int id);
         Task Create(Comment entity);
         Task Update(Comment entity);

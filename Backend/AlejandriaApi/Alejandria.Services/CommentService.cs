@@ -63,6 +63,23 @@ namespace Alejandria.Services
                 .ToList();
         }
 
+        public async Task<ICollection<CommentDto>> GetCollectionByTeacherId(int TeacherId)
+        {
+            var collection = await _repository.GetCollectionByTeacherId(TeacherId);
+
+            return collection.
+                Select(p => new CommentDto
+                {
+                    Id = p.Id,
+                    Description = p.Description,
+                    TeacherId = p.TeacherId,
+                    UserId = p.UserId,
+                    Name = p.Name,
+                    DateTime = p.DateTime
+                })
+                .ToList();
+        }
+
         public async Task<ResponseDto<CommentDto>> GetComment(int id)
         {
             var response = new ResponseDto<CommentDto>();

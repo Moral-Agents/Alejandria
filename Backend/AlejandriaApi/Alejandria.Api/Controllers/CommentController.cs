@@ -27,6 +27,13 @@ namespace Alejandria.Api.Controllers
         }
 
         [HttpGet]
+        [Route("List/{TeacherId:int}")]
+        public async Task<IEnumerable<CommentDto>> ListByTeacherId(int TeacherId)
+        {
+            return await _service.GetCollectionByTeacherId(TeacherId);
+        }
+
+        [HttpGet]
         [Route("{id:int}")]
         public async Task<ResponseDto<CommentDto>> Get(int id)
         {

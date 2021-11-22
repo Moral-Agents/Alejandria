@@ -135,6 +135,6 @@ namespace Alejandria.Services
 
                 await _repository.Update(teacher);
             }
-        }        
+        }
     }
 }

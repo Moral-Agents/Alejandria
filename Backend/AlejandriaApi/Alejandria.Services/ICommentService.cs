@@ -9,6 +9,7 @@ namespace Alejandria.Services
     public interface ICommentService
     {
         Task<ICollection<CommentDto>> GetCollection();
+        Task<ICollection<CommentDto>> GetCollectionByTeacherId(int TeacherId);
         Task<ResponseDto<CommentDto>> GetComment(int id);
         Task Create(CommentDto request);
         Task Update(int id, CommentDto request);

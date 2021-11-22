@@ -41,6 +41,15 @@ namespace Alejandria.DataAccess
             return collecion;
         }
 
+        public async Task<ICollection<Comment>> GetCollectionByTeacherId(int TeacherId)
+        {
+            var collecion = await _context.Comments
+                .Where(c => c.TeacherId.Equals(TeacherId))
+                .ToListAsync();
+
+            return collecion;
+        }
+
         public async Task<Comment> GetItem(int id)
         {
             return await _context.Comments.FindAsync(id);
