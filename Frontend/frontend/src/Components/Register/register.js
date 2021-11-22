@@ -11,7 +11,8 @@ function Register (){
       password:"",
       role: 0,
       institution:"",
-      name:""
+      name:"",
+      emaiError: ""
     };
     let navigate = useNavigate();
     const [user, setUser] = useState(initialUserState);
@@ -20,7 +21,26 @@ function Register (){
       const { name, value } = event.target;
       setUser({ ...user, [name]: value });
     };
+    
+    validate = () => {
+      let nameError = "";
+      let emailError = "";
+    }
+ if (!this.state.name) {
+      nameError = "name cannot be blank";
+    }
 
+    if (!this.state.email.includes("@")) {
+      emailError = "invalid email";
+    }
+
+    if (emailError || nameError) {
+      this.setState({ emailError, nameError });
+      return false;
+    }
+
+    return true;
+    
     const saveUser = async () => {
       let data = JSON.stringify({
         email:user.email,
@@ -62,6 +82,10 @@ function Register (){
           <Row className="justify-content-md-center ">
             <Form>
                 <div>
+            <div
+                style={{ fontSize: 12, color: "red" }}>
+            {this.state.emailError}
+              </div>
               <Form.Group className="mb-3" >
                 <Form.Label>Correo Electrónico</Form.Label>
                 <Form.Control type="email" name="email" placeholder="ejemplo@gmail.com" value={user.email}
