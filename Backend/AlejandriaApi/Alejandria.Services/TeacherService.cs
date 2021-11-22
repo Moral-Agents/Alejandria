@@ -29,11 +29,11 @@ namespace Alejandria.Services
                     Img = entity.Img,
                     Description = entity.Description,
                     Course = entity.Course,
-                    Rating = 2.5f,
-                    Attribute1 = 50,
-                    Attribute2 = 50,
-                    Attribute3 = 50,
-                    Attribute4 = 50
+                    Rating = 0f,
+                    Attribute1 = 0,
+                    Attribute2 = 0,
+                    Attribute3 = 0,
+                    Attribute4 = 0
                 });
             }
             catch (Exception ex)
