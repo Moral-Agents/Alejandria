@@ -275,11 +275,19 @@ function Teacher() {
                     </Form.Group>
                 </Form>
 
-                <div>
+                <div className="mb-5">
                     { comments.map(comment_ => (
                         <div className="mt-5 mb-5">
-                            <h6>{comment_.name} / <span>{comment_.dateTime}</span></h6>
-                            <p>{comment_.description}</p>
+                            <Row>
+                                <Col className="col-sm-11">
+                                    <h6>{comment_.name} / <span>{comment_.dateTime}</span></h6>
+                                </Col>
+
+                            </Row>
+                            <Row>
+                                <p>{comment_.description}</p>
+                            </Row>
+                            
                         </div>
                     ))}
                 </div>
